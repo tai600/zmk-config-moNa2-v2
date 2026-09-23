@@ -302,7 +302,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [39, 38]
+- p: [39, 38, 17, 16, 31]
   k: {t: ESC, h: '4'}
 - p: [11, 12]
   k: TAB
+- p: [17, 18, 19, 29, 31]
+  k: A
