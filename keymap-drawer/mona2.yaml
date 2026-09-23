@@ -44,39 +44,39 @@ layers:
   - {t: ENTER, h: '1'}
   - {t: ESCAPE, h: '5'}
   '1':
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
   - {t: ▽, type: trans}
+  - '&'
+  - '*'
+  - (
+  - )
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - {t: ▽, type: trans}
+  - <
+  - '>'
+  - '`'
+  - $
+  - '%'
+  - ^
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - (
   - )
-  - {t: ▽, type: trans}
   - \
   - {t: ▽, type: trans}
+  - {t: '-', h: LEFT SHIFT}
+  - '!'
+  - '@'
+  - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '{'
+  - '}'
   - '|'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
