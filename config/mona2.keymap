@@ -50,20 +50,6 @@
             label = "TO_LAYER_0";
         };
 
-        div_mark: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_4 &kp KP_NUMBER_7>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "NEW_MACRO";
-        };
-
         prmi_mark: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -76,6 +62,18 @@
                 <&kp LALT>;
 
             label = "NEW_MACRO";
+        };
+
+        div_mark: new_macro3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp KP_NUMBER_0 &kp KP_NUMBER_2 &kp KP_NUMBER_4 &kp KP_NUMBER_7>;
+
+            label = "NEW_MACRO3";
         };
     };
 
