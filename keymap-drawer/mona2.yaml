@@ -70,7 +70,7 @@ layers:
   - '@'
   - '#'
   - '~'
-  - {t: ▽, type: trans}
+  - _
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '{'
@@ -92,7 +92,7 @@ layers:
   - '8'
   - '9'
   - +
-  - {t: ▽, type: trans}
+  - '&prmi_mark'
   - F7
   - F8
   - F9
@@ -102,8 +102,8 @@ layers:
   - '5'
   - '6'
   - '-'
-  - '&mul_mark'
   - {t: ▽, type: trans}
+  - '&mul_mark'
   - F4
   - F5
   - F6
@@ -114,8 +114,8 @@ layers:
   - '3'
   - '='
   - KP MULTIPLY
-  - '&div_mark'
   - {t: ▽, type: trans}
+  - '&div_mark'
   - F1
   - F2
   - F3
@@ -130,38 +130,38 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
+  - PAGE UP
   - {t: ▽, type: trans}
-  - Ctl+Sft+TAB
-  - PRINTSCREEN
-  - Ctl+TAB
+  - UP ARROW
+  - {t: ▽, type: trans}
+  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
-  - UP ARROW
-  - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
-  - Gui+RIGHT ARROW
-  - Ctl+Gui+LEFT ARROW
-  - Ctl+Gui+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
+  - END
+  - Ctl+Gui+PRINTSCREEN
+  - {t: ▽, type: trans}
+  - Gui+LEFT ARROW
+  - Gui+DOWN ARROW
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
-  - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DELETE
-  - PAGE UP
-  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - Sft+PRINTSCREEN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -169,7 +169,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
@@ -227,15 +227,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - '&mkp MB2'
   - '&mkp MB3'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -245,9 +245,9 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MB4'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
